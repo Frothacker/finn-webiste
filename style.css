@@ -1,0 +1,116 @@
+
+/* Style the header */
+.header {
+    padding-top: 180px;
+    padding-bottom: 209px;
+    text-align: center;
+    background: grey;
+    color: white;
+    text-transform: bold;
+    font-size: 21px;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+    font-size: 50px;
+}
+
+.header .profile{
+  width: 150px;
+  height: auto;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    padding: 10px;
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    font-weight: bolder;
+    float: right; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: #F9FCFC; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.left {
+    float: left; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+    background-color: #B0FF92; /* green background color */
+    color: #2d2d2c; /* dark text color */
+}
+
+.about {
+    font-weight:bold;
+    font-style: "Lato";
+    padding: 80px;
+    text-align: center;
+    background: #F9FCFC;
+    color: grey;
+    font-size: 18px;
+}
+
+.about a {
+  font-weight: bold;
+  color: #2D2D2C;
+  text-decoration: none;
+}
+
+.todo{
+  max-height: 400px;
+  height: auto;
+  margin: 30px;
+  padding: 60px;
+  background-color: #234C6B;
+  color: #F9FCFC;
+  font-style: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+.todo h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #F9FCFC;
+}
+
+.footer {
+    padding: 17px; /* Some padding */
+    padding-bottom: 50px;
+    text-align: center; /* Center text*/
+    background: #2D2D2C; /* Grey background */
+    color: #F9FCFC ; /* white text color */
+}
+
+.footer a {
+    
+    width: auto;
+    padding: 14px 30px; /* Add some padding */
+    
+    font-style: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    float: middle; /* align on left */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+
+    color: grey; /* green text color */
+    background-color: #F9FCFC; /* dark blue color button*/
+  
+    text-decoration: none; /* Remove underline */
+    text-align: center; /* Center the text */
+}
+
+.footer a:hover {
+    background-color: #B0FF92; /* green background color */
+    color: #2d2d2c; /* dark text color */
+}
+
